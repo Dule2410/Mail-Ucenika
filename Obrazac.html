@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Obrazac</title>
+</head>
+<body>
+<form method="get" action="Obrazac.php">
+<h1>Ispuni sljedeći obrazac</h1>
+<br>
+<h3>Unesi ime i prezime:</h3>
+<input type="text" name="imeOsobe" placeholder="Ime" id="imeOsobe" maxlength="20" required /> Ime
+<br><br>
+<input type="text" name="prezimeOsobe" placeholder="Prezime" id="prezimeOsobe" maxlength="20" required /> Prezime
+<br><br>
+<h3>Označi svoju omiljenu boju:</h3>
+<input type="radio" name="boja" id="boja1" value="crvena"> crvena
+<br>
+<input type="radio" name="boja" id="boja2" value="crvena"> zelena
+<br>
+<input type="radio" name="boja" id="boja3" value="crvena"> plava
+<br>
+<input type="radio" name="boja" id="boja4" value="crvena"> žuta
+<br><br>
+<h3>Odaberi omiljeni predmet:</h3>
+<select name="predmet" id="predmet">
+    <option value="matematika" id="matematika" name="matematika">Matematika</option>
+    <option value="fizika" id="fizika" name="fizika">Fizika</option>
+    <option value="engleski" id="engleski" name="engleski">Engleski</option>
+    <option value="hrvatski" id="hrvatski" name="hrvatski">Hrvatski</option>
+</select>
+<br><br>
+<input type="text" name="email"> e-mail
+<br><br>
+<input type="submit" value="Pošalji">
+</form>
+</body>
+</html>
